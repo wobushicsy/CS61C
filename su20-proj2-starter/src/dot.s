@@ -18,27 +18,46 @@
 # this function exits with error code 6.
 # =======================================================
 dot:
+    # error check
+    ble a2, x0, exit_5
+    ble a3, x0, exit_6
+    ble a4, x0, exit_6
 
     # Prologue
 
+    # t0 counter
+    mv t0, x0
+
+    # t1 sum
+    mv t1, x0
 
 loop_start:
+    lw t2, 0(a0)
+    lw t3, 0(a1)
+    mul t2, t2, t3
 
+    add t1, t1, t2
 
+    addi t0, t0, 1
+    add a0, a0, a3
+    add a1, a1, a4
 
-
-
-
-
-
-
-
+    bne t0, a2, loop_start
 
 
 loop_end:
 
+    mv a0, t1
 
     # Epilogue
 
     
+    ret
+
+exit_5:
+    li a0, 5
+    ret
+
+exit_6:
+    li a0, 6
     ret
