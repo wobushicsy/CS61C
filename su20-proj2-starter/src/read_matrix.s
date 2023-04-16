@@ -98,6 +98,9 @@ read_matrix:
     mv a3, s5
     jal ra, fread  
 
+    mv a1, s3
+    jal ra, fclose
+
     mv a0, s6
     lw t0, 0(s3)
     sw t0, 0(s1)
