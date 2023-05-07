@@ -151,7 +151,7 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <wire from="(1160,260)" to="(1160,310)"/>
     <wire from="(670,210)" to="(690,210)"/>
     <wire from="(670,290)" to="(690,290)"/>
-    <wire from="(670,370)" to="(690,370)"/>
+    <wire from="(670,370)" to="(700,370)"/>
     <wire from="(1160,160)" to="(1360,160)"/>
     <wire from="(1160,310)" to="(1360,310)"/>
     <wire from="(220,100)" to="(220,140)"/>
@@ -245,10 +245,6 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <a name="width" val="32"/>
       <a name="label" val="and1"/>
     </comp>
-    <comp lib="0" loc="(690,370)" name="Tunnel">
-      <a name="width" val="32"/>
-      <a name="label" val="and1"/>
-    </comp>
     <comp lib="0" loc="(440,350)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="32"/>
@@ -261,6 +257,10 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     </comp>
     <comp lib="1" loc="(670,370)" name="OR Gate">
       <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(700,370)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="or2"/>
     </comp>
   </circuit>
 </project>
