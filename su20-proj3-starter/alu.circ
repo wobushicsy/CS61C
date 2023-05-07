@@ -3,6 +3,7 @@
 This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
 <lib desc="#Wiring" name="0">
     <tool name="Splitter">
+      <a name="facing" val="west"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
       <a name="appear" val="center"/>
@@ -136,43 +137,68 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <polygon fill="none" points="40,20 120,70 120,160 40,210 40,130 60,115 40,100" stroke="#000000" stroke-width="2"/>
       <circ-anchor facing="east" height="6" width="6" x="117" y="107"/>
     </appear>
+    <wire from="(900,940)" to="(950,940)"/>
     <wire from="(810,410)" to="(860,410)"/>
     <wire from="(460,210)" to="(520,210)"/>
     <wire from="(460,530)" to="(520,530)"/>
     <wire from="(460,610)" to="(520,610)"/>
     <wire from="(460,690)" to="(520,690)"/>
-    <wire from="(460,770)" to="(520,770)"/>
     <wire from="(800,200)" to="(800,210)"/>
     <wire from="(800,230)" to="(860,230)"/>
+    <wire from="(940,980)" to="(940,1240)"/>
     <wire from="(830,310)" to="(830,330)"/>
+    <wire from="(860,900)" to="(860,920)"/>
+    <wire from="(530,770)" to="(530,790)"/>
+    <wire from="(550,780)" to="(570,780)"/>
     <wire from="(360,550)" to="(520,550)"/>
     <wire from="(360,630)" to="(520,630)"/>
     <wire from="(360,710)" to="(520,710)"/>
     <wire from="(880,440)" to="(880,480)"/>
+    <wire from="(730,680)" to="(940,680)"/>
+    <wire from="(730,1240)" to="(940,1240)"/>
     <wire from="(1160,160)" to="(1360,160)"/>
     <wire from="(560,380)" to="(590,380)"/>
     <wire from="(560,700)" to="(590,700)"/>
     <wire from="(220,100)" to="(220,140)"/>
+    <wire from="(730,880)" to="(890,880)"/>
+    <wire from="(730,1040)" to="(890,1040)"/>
+    <wire from="(460,770)" to="(480,770)"/>
+    <wire from="(920,860)" to="(950,860)"/>
     <wire from="(1160,160)" to="(1160,220)"/>
     <wire from="(830,290)" to="(860,290)"/>
+    <wire from="(940,680)" to="(940,840)"/>
     <wire from="(200,310)" to="(220,310)"/>
     <wire from="(220,180)" to="(220,230)"/>
     <wire from="(90,100)" to="(90,340)"/>
+    <wire from="(940,980)" to="(950,980)"/>
+    <wire from="(840,660)" to="(920,660)"/>
     <wire from="(670,400)" to="(810,400)"/>
     <wire from="(670,440)" to="(810,440)"/>
-    <wire from="(570,780)" to="(570,790)"/>
+    <wire from="(870,910)" to="(870,960)"/>
     <wire from="(830,280)" to="(830,290)"/>
     <wire from="(810,530)" to="(870,530)"/>
+    <wire from="(890,890)" to="(950,890)"/>
+    <wire from="(890,930)" to="(950,930)"/>
+    <wire from="(930,720)" to="(930,850)"/>
     <wire from="(460,230)" to="(460,240)"/>
     <wire from="(460,790)" to="(460,800)"/>
     <wire from="(330,440)" to="(500,440)"/>
     <wire from="(330,480)" to="(500,480)"/>
     <wire from="(220,270)" to="(220,290)"/>
+    <wire from="(730,840)" to="(900,840)"/>
+    <wire from="(730,1080)" to="(900,1080)"/>
+    <wire from="(880,920)" to="(880,1000)"/>
     <wire from="(900,220)" to="(920,220)"/>
     <wire from="(900,420)" to="(920,420)"/>
     <wire from="(900,300)" to="(920,300)"/>
     <wire from="(880,480)" to="(900,480)"/>
+    <wire from="(930,850)" to="(950,850)"/>
+    <wire from="(930,970)" to="(950,970)"/>
+    <wire from="(890,930)" to="(890,1040)"/>
+    <wire from="(920,760)" to="(920,860)"/>
     <wire from="(200,160)" to="(220,160)"/>
+    <wire from="(730,920)" to="(860,920)"/>
+    <wire from="(880,920)" to="(950,920)"/>
     <wire from="(330,240)" to="(460,240)"/>
     <wire from="(330,200)" to="(460,200)"/>
     <wire from="(330,520)" to="(460,520)"/>
@@ -181,13 +207,17 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <wire from="(330,760)" to="(460,760)"/>
     <wire from="(330,800)" to="(460,800)"/>
     <wire from="(1160,240)" to="(1180,240)"/>
+    <wire from="(900,880)" to="(950,880)"/>
     <wire from="(1360,160)" to="(1360,310)"/>
     <wire from="(810,430)" to="(860,430)"/>
+    <wire from="(900,940)" to="(900,1080)"/>
     <wire from="(460,230)" to="(520,230)"/>
-    <wire from="(460,790)" to="(520,790)"/>
     <wire from="(810,430)" to="(810,440)"/>
     <wire from="(810,550)" to="(810,560)"/>
+    <wire from="(730,800)" to="(910,800)"/>
+    <wire from="(730,1120)" to="(910,1120)"/>
     <wire from="(800,210)" to="(860,210)"/>
+    <wire from="(910,800)" to="(910,870)"/>
     <wire from="(330,280)" to="(510,280)"/>
     <wire from="(330,320)" to="(510,320)"/>
     <wire from="(330,360)" to="(510,360)"/>
@@ -198,21 +228,37 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <wire from="(460,680)" to="(460,690)"/>
     <wire from="(460,760)" to="(460,770)"/>
     <wire from="(680,620)" to="(920,620)"/>
+    <wire from="(990,920)" to="(1100,920)"/>
     <wire from="(720,340)" to="(720,360)"/>
     <wire from="(1160,260)" to="(1160,310)"/>
-    <wire from="(570,780)" to="(590,780)"/>
+    <wire from="(910,950)" to="(910,1120)"/>
+    <wire from="(900,840)" to="(900,880)"/>
+    <wire from="(980,1040)" to="(980,1080)"/>
     <wire from="(670,280)" to="(830,280)"/>
+    <wire from="(460,790)" to="(480,790)"/>
+    <wire from="(920,960)" to="(950,960)"/>
     <wire from="(830,310)" to="(860,310)"/>
     <wire from="(200,250)" to="(220,250)"/>
     <wire from="(670,320)" to="(740,320)"/>
     <wire from="(680,520)" to="(810,520)"/>
     <wire from="(680,560)" to="(810,560)"/>
+    <wire from="(940,840)" to="(950,840)"/>
+    <wire from="(870,910)" to="(950,910)"/>
+    <wire from="(730,960)" to="(870,960)"/>
     <wire from="(780,330)" to="(830,330)"/>
     <wire from="(800,230)" to="(800,240)"/>
     <wire from="(810,400)" to="(810,410)"/>
     <wire from="(810,520)" to="(810,530)"/>
+    <wire from="(920,960)" to="(920,1160)"/>
+    <wire from="(890,880)" to="(890,890)"/>
     <wire from="(810,550)" to="(870,550)"/>
     <wire from="(220,330)" to="(220,340)"/>
+    <wire from="(730,760)" to="(920,760)"/>
+    <wire from="(730,1160)" to="(920,1160)"/>
+    <wire from="(530,770)" to="(570,770)"/>
+    <wire from="(910,870)" to="(950,870)"/>
+    <wire from="(910,950)" to="(950,950)"/>
+    <wire from="(730,1000)" to="(880,1000)"/>
     <wire from="(560,300)" to="(580,300)"/>
     <wire from="(560,460)" to="(580,460)"/>
     <wire from="(560,540)" to="(580,540)"/>
@@ -220,14 +266,21 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <wire from="(560,220)" to="(580,220)"/>
     <wire from="(700,360)" to="(720,360)"/>
     <wire from="(720,340)" to="(740,340)"/>
+    <wire from="(970,1000)" to="(970,1040)"/>
+    <wire from="(930,970)" to="(930,1200)"/>
     <wire from="(1160,310)" to="(1360,310)"/>
+    <wire from="(860,900)" to="(950,900)"/>
     <wire from="(330,560)" to="(340,560)"/>
     <wire from="(330,640)" to="(340,640)"/>
     <wire from="(330,720)" to="(340,720)"/>
+    <wire from="(730,720)" to="(930,720)"/>
+    <wire from="(730,1200)" to="(930,1200)"/>
     <wire from="(670,240)" to="(800,240)"/>
     <wire from="(670,200)" to="(800,200)"/>
     <wire from="(910,540)" to="(920,540)"/>
-    <wire from="(560,790)" to="(570,790)"/>
+    <wire from="(970,1040)" to="(980,1040)"/>
+    <wire from="(550,780)" to="(550,830)"/>
+    <wire from="(520,790)" to="(530,790)"/>
     <wire from="(90,340)" to="(220,340)"/>
     <wire from="(90,100)" to="(220,100)"/>
     <comp lib="0" loc="(1180,240)" name="Pin">
@@ -340,9 +393,6 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <comp lib="0" loc="(580,220)" name="Tunnel">
       <a name="width" val="32"/>
       <a name="label" val="add0"/>
-    </comp>
-    <comp lib="3" loc="(560,780)" name="Comparator">
-      <a name="width" val="32"/>
     </comp>
     <comp lib="3" loc="(560,220)" name="Adder">
       <a name="width" val="32"/>
@@ -467,6 +517,7 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <a name="shift" val="lr"/>
     </comp>
     <comp lib="0" loc="(590,780)" name="Tunnel">
+      <a name="width" val="32"/>
       <a name="label" val="slt7"/>
     </comp>
     <comp lib="1" loc="(560,300)" name="AND Gate">
@@ -595,16 +646,156 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     </comp>
     <comp lib="0" loc="(920,540)" name="Tunnel">
       <a name="width" val="32"/>
-      <a name="label" val="sub13"/>
+      <a name="label" val="sub12"/>
     </comp>
     <comp lib="0" loc="(920,620)" name="Tunnel">
       <a name="width" val="32"/>
-      <a name="label" val="bsel14"/>
+      <a name="label" val="bsel13"/>
     </comp>
     <comp lib="0" loc="(680,620)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="32"/>
       <a name="label" val="B"/>
+    </comp>
+    <comp lib="0" loc="(730,680)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="add0"/>
+    </comp>
+    <comp lib="0" loc="(730,720)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="and1"/>
+    </comp>
+    <comp lib="0" loc="(730,760)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="or2"/>
+    </comp>
+    <comp lib="0" loc="(730,800)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="xor3"/>
+    </comp>
+    <comp lib="0" loc="(730,840)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="srl4"/>
+    </comp>
+    <comp lib="0" loc="(730,880)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="sra5"/>
+    </comp>
+    <comp lib="0" loc="(730,920)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="sll6"/>
+    </comp>
+    <comp lib="0" loc="(730,960)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="slt7"/>
+    </comp>
+    <comp lib="0" loc="(730,1000)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="divu8"/>
+    </comp>
+    <comp lib="0" loc="(730,1040)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="remu9"/>
+    </comp>
+    <comp lib="0" loc="(730,1080)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="mul10"/>
+    </comp>
+    <comp lib="0" loc="(730,1120)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="mulhu11"/>
+    </comp>
+    <comp lib="0" loc="(840,660)" name="Constant">
+      <a name="width" val="32"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(920,660)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="mulh14"/>
+    </comp>
+    <comp lib="2" loc="(990,920)" name="Multiplexer">
+      <a name="select" val="4"/>
+      <a name="width" val="32"/>
+      <a name="enable" val="false"/>
+    </comp>
+    <comp lib="0" loc="(730,1240)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="mulh14"/>
+    </comp>
+    <comp lib="0" loc="(730,1160)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="sub12"/>
+    </comp>
+    <comp lib="0" loc="(730,1200)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="bsel13"/>
+    </comp>
+    <comp lib="3" loc="(520,780)" name="Comparator">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(590,780)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="incoming" val="32"/>
+      <a name="appear" val="center"/>
+      <a name="bit2" val="1"/>
+      <a name="bit3" val="1"/>
+      <a name="bit4" val="1"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="1"/>
+      <a name="bit11" val="1"/>
+      <a name="bit12" val="1"/>
+      <a name="bit13" val="1"/>
+      <a name="bit14" val="1"/>
+      <a name="bit15" val="1"/>
+      <a name="bit16" val="1"/>
+      <a name="bit17" val="1"/>
+      <a name="bit18" val="1"/>
+      <a name="bit19" val="1"/>
+      <a name="bit20" val="1"/>
+      <a name="bit21" val="1"/>
+      <a name="bit22" val="1"/>
+      <a name="bit23" val="1"/>
+      <a name="bit24" val="1"/>
+      <a name="bit25" val="1"/>
+      <a name="bit26" val="1"/>
+      <a name="bit27" val="1"/>
+      <a name="bit28" val="1"/>
+      <a name="bit29" val="1"/>
+      <a name="bit30" val="1"/>
+      <a name="bit31" val="1"/>
+    </comp>
+    <comp lib="0" loc="(550,830)" name="Constant">
+      <a name="facing" val="north"/>
+      <a name="width" val="31"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1100,920)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="result"/>
+    </comp>
+    <comp lib="0" loc="(980,1080)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="4"/>
+      <a name="label" val="ALUSel"/>
     </comp>
   </circuit>
   <circuit name="test">
